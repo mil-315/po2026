@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+/*void main() {
     Scanner myObj = new Scanner(System.in);
     System.out.println("podaj wysokość choinki: ");
     int num = myObj.nextInt();
@@ -18,4 +18,4 @@ void main() {
 
 }
 
-
+*/
