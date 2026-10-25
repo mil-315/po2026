@@ -37,6 +37,5 @@ public class Main {
         System.out.println("liczba losowan: "+ liczba_losow +"\nczas: " + (System.currentTimeMillis()-a));
 
 
-
     }
 }
