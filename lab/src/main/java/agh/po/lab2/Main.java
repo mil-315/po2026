@@ -9,7 +9,7 @@ public class Main {
             int liczba = Integer.parseInt(args[i]);
             zgadniecie.add(liczba);
         }
-        System.out.println(zgadniecie);
+        System.out.println("twoje typy: " + zgadniecie);
         ArrayList<Integer> los = lotto2.losowanie();
         System.out.println("liczby wygrane: " + los);
         int liczba_traf = 0;
@@ -23,7 +23,7 @@ public class Main {
 
         int liczba_trafien = 0;
         int liczba_losow = 0;
-        double a = System.currentTimeMillis();
+        long a = System.currentTimeMillis();
         while(liczba_trafien<6){
             liczba_trafien = 0;
             for (int j=0; j<6; j++){

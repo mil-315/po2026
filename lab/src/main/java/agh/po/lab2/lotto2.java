@@ -6,9 +6,9 @@ public class lotto2 {
     public static ArrayList<Integer> losowanie() {
         ArrayList<Integer> los = new ArrayList<Integer>();
         for (int i = 0; i<6;i++) {
-            int a = (int)(Math.random()* 50);
+            int a = (int)(Math.random()* 49)+1;
             while (los.contains(a)){
-                 a = (int)(Math.random()* 50);
+                 a = (int)(Math.random()* 49)+1;
             }
             los.add(a);
 
