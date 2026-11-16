@@ -3,7 +3,7 @@ package agh.po.lab3_2;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.AssertJUnit.assertEquals;
 
 class CodingbatTest {
 

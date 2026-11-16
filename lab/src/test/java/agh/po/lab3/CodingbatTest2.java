@@ -1,8 +1,6 @@
 package agh.po.lab3;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class CodingbatTest {
+class CodingbatTest2 {
 
     @org.junit.jupiter.api.Test
     void array123() {
