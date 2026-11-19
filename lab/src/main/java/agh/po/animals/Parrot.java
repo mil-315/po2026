@@ -6,7 +6,12 @@ public class Parrot extends Animal {
     }
 
     public String getDescription(){
-        return  name + legs;
+        return  name + "(" + legs  +" nogi)";
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("kraaa kraaaa");
     }
 }
 

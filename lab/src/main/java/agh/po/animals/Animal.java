@@ -8,8 +8,10 @@ public  abstract class Animal {
         this.name = name;
         this.legs = legs;
     }
-    public int getlegs(){
+    public int getLegs(){
         return legs;
     }
     public abstract String getDescription();
+
+    public abstract void makeSound();
 }
