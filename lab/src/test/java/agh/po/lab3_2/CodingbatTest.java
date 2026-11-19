@@ -3,7 +3,8 @@ package agh.po.lab3_2;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.testng.AssertJUnit.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 class CodingbatTest {
 
@@ -20,6 +21,5 @@ class CodingbatTest {
     @org.junit.jupiter.api.Test
     void wordLen() {
         Codingbat codingbat = new Codingbat();
-        assertEquals(Map.of())
     }
 }
